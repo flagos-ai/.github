@@ -1,8 +1,6 @@
 # FlagOS：统一的开源AI系统软件栈
 
-[![GitHub License](https://img.shields.io/github/license/FlagOpen/FlagOS?style=flat-square)](https://github.com/FlagOpen/FlagOS/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/FlagOpen/FlagScale?style=flat-square)](https://github.com/FlagOpen/FlagScale)
-[![GitHub Issues](https://img.shields.io/github/issues/FlagOpen/FlagScale?style=flat-square)](https://github.com/FlagOpen/FlagScale/issues)
+[![GitHub License](https://img.shields.io/github/license/flagos-ai/.github?style=flat-square)](https://github.com/flagos-ai/.github/blob/main/LICENSE)
 
 **语言:** [English](README.md) | [中文](README_zh.md)
 
