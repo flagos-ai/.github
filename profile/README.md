@@ -1,0 +1,108 @@
+# FlagOS: A Unified, Open-Source AI System Software Stack
+
+[![GitHub License](https://img.shields.io/github/license/FlagOpen/FlagOS?style=flat-square)](https://github.com/FlagOpen/FlagOS/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/FlagOpen/FlagScale?style=flat-square)](https://github.com/FlagOpen/FlagScale)
+[![GitHub Issues](https://img.shields.io/github/issues/FlagOpen/FlagScale?style=flat-square)](https://github.com/FlagOpen/FlagScale/issues)
+
+**Language:** [English](README.md) | [中文](README_zh.md)
+
+---
+
+## 📖 About FlagOS
+
+FlagOS is a unified, open-source AI system software stack designed for multi-chip scenarios. It was jointly initiated and established by over ten domestic and international organizations, including chip companies, system manufacturers, algorithm and software-related entities, non-profit organizations, and research institutions.
+
+Addressing core pain points in utilizing diverse AI chips, FlagOS builds a comprehensive system software ecosystem that demonstrates the potential to break down ecosystem barriers between different chip software stacks, effectively reducing migration costs for developers.
+
+---
+
+## 🎯 Core Components
+
+| Component | Purpose | Repository |
+|-----------|---------|-----------|
+| **FlagGems** | High-performance universal AI operator library | [FlagGems](https://github.com/flagos-ai/FlagGems) |
+| **FlagTree** | Unified AI compiler | [FlagTree](https://github.com/flagos-ai/flagtree) |
+| **FlagScale** | Unified parallel training and inference framework | [FlagScale](https://github.com/flagos-ai/FlagScale) |
+| **FlagCX** | Unified communication library | [FlagCX](https://github.com/flagos-ai/FlagCX) |
+| **FlagPerf** | Multi-chip evaluation tool | [FlagPerf](https://github.com/flagos-ai/FlagPerf) |
+| **FlagRelease** | Large model release platform | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
+| **FlagAttention** | Memory-efficient attention operators in Triton | [FlagAttention](https://github.com/flagos-ai/FlagAttention) |
+
+---
+
+## 🚀 Extended Ecosystem Components
+
+### Framework Enhancements
+- **Megatron-LM-FL**: GPU-optimized library for training transformer models at scale
+  → [Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)
+
+- **TransformerEngine-FL**: FP8 mixed precision training for transformer models
+  → [TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL)
+
+### Inference & Serving
+- **vllm-FL**: A vLLM plugin built on FlagOS unified multi-chip backend for LLM serving
+  → [vllm-FL](https://github.com/flagos-ai/vllm-FL)
+
+- **vllm-plugin-FL**: Advanced vLLM plugin for enhanced multi-chip support
+  → [vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)
+
+### Developer Tools & Utilities
+- **TritonCopilot**: Next-generation AI-assisted kernel engineering for multi-chip systems
+  → [TritonCopilot](https://github.com/flagos-ai/triton-copilot)
+
+- **libtriton_jit**: Triton JIT C++ runtime for reduced Python overhead
+  → [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)
+
+### Community & Resources
+- **EasyOfUse**: Simplify development for open compute - plug-and-play solutions and best practices
+  → [EasyOfUse](https://github.com/flagos-ai/EasyOfUse)
+
+- **Community**: FlagOS community governance, contribution guides, and communication hub
+  → [Community](https://github.com/flagos-ai/community)
+
+---
+
+## 📚 Documentation & Resources
+
+### Knowledge Base
+- **FlagOS Wiki & Documentation**: [DeepWiki Portal](https://flagos-wiki.baai.ac.cn/)
+- **Latest Release v1.5**: [Announcement](https://mp.weixin.qq.com/s/BCryw30j_eMwe0Pr80VtcA)
+
+### Model Repositories
+- **ModelScope**: [FlagRelease Models](https://modelscope.cn/organization/FlagRelease)
+- **Hugging Face**: [FlagRelease Models](https://huggingface.co/FlagRelease/models)
+- **WiseModel**: [FlagRelease Models](https://www.wisemodel.cn/models/FlagRelease/)
+
+### Community Channels
+- **WeChat Official Account**: FlagOpen
+- **WeChat Channels Account**: FlagOpen
+
+---
+
+## 💕 Contributing
+
+We welcome contributions from the community! Whether through starring, forking, or submitting pull requests, your involvement helps make FlagOS better.
+
+- ⭐ **Star** - Show your support!
+- 🔔 **Watch** - Stay updated with our latest releases
+- 🍴 **Fork** - Start contributing!
+
+### Code of Conduct
+Please read and respect our Code of Conduct:
+- **[Code of Conduct](https://github.com/flagos-ai/community/blob/main/CODE_OF_CONDUCT.MD)** (English)
+
+---
+
+## 📄 License
+
+FlagOS and its components are licensed under the Apache License 2.0. See individual repositories for details.
+
+---
+
+## 🤝 Partners & Contributors
+
+FlagOS is jointly supported by leading organizations in chip manufacturing, system software, and AI research. This collaborative effort demonstrates the commitment to building an open, unified ecosystem for AI system software across diverse hardware platforms.
+
+---
+
+**Join us in building the future of AI system software! 🚀**
