@@ -79,6 +79,16 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 ---
 
+## 🌐 Join the Community
+
+**Ready to contribute or learn more?** Visit the [FlagOS Community Repository](https://github.com/flagos-ai/community) for:
+- 📖 Comprehensive contribution guidelines
+- 💬 Community discussions and support
+- 🤝 Ways to get involved
+- 📚 Resources and documentation
+
+---
+
 ## 💕 Contributing
 
 We welcome contributions from the community! Whether through starring, forking, or submitting pull requests, your involvement helps make FlagOS better.
