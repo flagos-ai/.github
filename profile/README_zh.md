@@ -69,7 +69,7 @@ FlagOS 是一个统一的、开源的AI系统软件栈，专为多芯片场景�
 ### 模型仓库
 - **ModelScope**: [FlagRelease模型](https://modelscope.cn/organization/FlagRelease)
 - **Hugging Face**: [FlagRelease模型](https://huggingface.co/FlagRelease/models)
-- **WiseModel**: [FlagRelease模型](https://www.wisemodel.cn/models/FlagRelease/)
+- **WiseModel**: [FlagRelease模型](https://www.wisemodel.cn/organization/FlagRelease)
 
 ### 社区频道
 - **微信公众号**: FlagOpen

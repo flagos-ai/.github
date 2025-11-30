@@ -69,7 +69,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 ### Model Repositories
 - **ModelScope**: [FlagRelease Models](https://modelscope.cn/organization/FlagRelease)
 - **Hugging Face**: [FlagRelease Models](https://huggingface.co/FlagRelease/models)
-- **WiseModel**: [FlagRelease Models](https://www.wisemodel.cn/models/FlagRelease/)
+- **WiseModel**: [FlagRelease Models](https://www.wisemodel.cn/organization/FlagRelease)
 
 ### Community Channels
 - **WeChat Official Account**: FlagOpen
