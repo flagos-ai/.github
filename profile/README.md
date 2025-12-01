@@ -24,7 +24,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 | **FlagCX** | Unified communication library | [FlagCX](https://github.com/flagos-ai/FlagCX) |
 | **FlagPerf** | Multi-chip evaluation tool | [FlagPerf](https://github.com/flagos-ai/FlagPerf) |
 | **FlagRelease** | Large model release platform | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
-| **FlagAttention** | Memory-efficient attention operators in Triton | [FlagAttention](https://github.com/flagos-ai/FlagAttention) |
+| **Triton-Copilot** | AI enabled operator develop tool | [Triton-Copilot](https://triton-copilot.flagos.io) |
 
 ---
 
