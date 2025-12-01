@@ -1,6 +1,6 @@
 # FlagOS: A Unified, Open-Source AI System Software Stack
 
-[![GitHub License](https://img.shields.io/github/license/flagos-ai/.github?style=flat-square)](https://github.com/flagos-ai/.github/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/flagos-ai/.github?style=flat-square)](https://github.com/flagos-ai/.github/blob/main/LICENSE) [![Ask DeepWiki](../assets/deepwiki.svg)](https://flagos-wiki.baai.ac.cn/)
 
 **Language:** [English](README.md) | [中文](README_zh.md)
 

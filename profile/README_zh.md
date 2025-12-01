@@ -1,6 +1,6 @@
 # FlagOS：统一的开源AI系统软件栈
 
-[![GitHub License](https://img.shields.io/github/license/flagos-ai/.github?style=flat-square)](https://github.com/flagos-ai/.github/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/flagos-ai/.github?style=flat-square)](https://github.com/flagos-ai/.github/blob/main/LICENSE) [![Ask DeepWiki](../assets/deepwiki.svg)](https://flagos-wiki.baai.ac.cn/)
 
 **语言:** [English](README.md) | [中文](README_zh.md)
 
