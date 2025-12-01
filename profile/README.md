@@ -30,6 +30,14 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 ## 🚀 Extended Ecosystem Components
 
+
+### Developer Tools & Utilities
+- **TritonCopilot**: Next-generation AI-assisted kernel engineering for multi-chip systems
+  → [TritonCopilot](https://github.com/flagos-ai/triton-copilot)
+
+- **libtriton_jit**: Triton JIT C++ runtime for reduced Python overhead
+  → [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)
+
 ### Framework Enhancements
 - **Megatron-LM-FL**: GPU-optimized library for training transformer models at scale
   → [Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)
@@ -43,13 +51,6 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 - **vllm-plugin-FL**: Advanced vLLM plugin for enhanced multi-chip support
   → [vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)
-
-### Developer Tools & Utilities
-- **TritonCopilot**: Next-generation AI-assisted kernel engineering for multi-chip systems
-  → [TritonCopilot](https://github.com/flagos-ai/triton-copilot)
-
-- **libtriton_jit**: Triton JIT C++ runtime for reduced Python overhead
-  → [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)
 
 ### Community & Resources
 - **EasyOfUse**: Simplify development for open compute - plug-and-play solutions and best practices
