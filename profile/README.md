@@ -25,6 +25,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 | **FlagPerf** | Multi-chip evaluation tool | [FlagPerf](https://github.com/flagos-ai/FlagPerf) |
 | **FlagRelease** | Large model release platform | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
 | **KernelGen** | AI enabled operator develop tool | [KernelGen](https://kernelgen.flagos.io) |
+| **FlagOS-Robo** | End-to-end toolkit for embodied intelligence | [FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) |
 
 ---
 
