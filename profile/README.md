@@ -24,7 +24,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 | **FlagCX** | Unified communication library | [FlagCX](https://github.com/flagos-ai/FlagCX) |
 | **FlagPerf** | Multi-chip evaluation tool | [FlagPerf](https://github.com/flagos-ai/FlagPerf) |
 | **FlagRelease** | Large model release platform | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
-| **KernelGen** | AI enabled operator develop tool | [KernelGen](https://kernelgen.flagos.io) |
+| **KernelGen** | AI enabled operator develop tool | [KernelGen](https://github.com/flagos-ai/kernelgen) |
 | **FlagOS-Robo** | End-to-end toolkit for embodied intelligence | [FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) |
 
 ---
@@ -34,7 +34,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 ### Developer Tools & Utilities
 - **KernelGen**: Next-generation AI-assisted kernel engineering for multi-chip systems
-  → [KernelGen](https://github.com/flagos-ai/kernelgen)
+  → [KernelGen](https://kernelgen.flagos.io)
 
 - **libtriton_jit**: Triton JIT C++ runtime for reduced Python overhead
   → [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)
