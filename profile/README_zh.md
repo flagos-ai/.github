@@ -24,15 +24,16 @@ FlagOS 社区致力于打造面向多种 AI 芯片的统一、开源的系统软
 | **FlagCX** | 统一通信库 | [FlagCX](https://github.com/flagos-ai/FlagCX) |
 | **FlagPerf** | 多芯片评测工具 | [FlagPerf](https://github.com/flagos-ai/FlagPerf) |
 | **FlagRelease** | 大模型发布平台 | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
-| **Triton-Copilot** | 大模型辅助算子开发工具 | [Triton-Copilot](https://triton-copilot.flagos.io) |
+| **KernelGen** | 大模型辅助算子开发工具 | [KernelGen](https://kernelgen.flagos.io) |
+| **FlagOS-Robo** | 具身智能训推一体化多芯片框架 | [FlagOS-Robo](https://https://github.com/flagos-ai/FlagOS-Robo) |
 
 ---
 
 ## 🚀 扩展生态组件
 
 ### 开发者工具与实用程序
-- **TritonCopilot**: 为多芯片系统设计的下一代AI辅助内核工程工具
-  → [TritonCopilot](https://github.com/flagos-ai/triton-copilot)
+- **KernelGen**: 为多芯片系统设计的下一代AI辅助内核工程工具
+  → [KernelGen](https://kernelgen.flagos.io) 
 
 - **libtriton_jit**: Triton JIT C++运行时，用于降低Python开销
   → [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)
