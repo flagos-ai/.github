@@ -10,7 +10,9 @@
 
 为解决不同 AI 芯片大规模落地应用，北京智源研究院联合众多科研机构、芯片企业、系统厂商、算法和软件相关单位等国内外机构共同发起并创立了 FlagOS 开源社区。
 
-FlagOS 社区致力于打造面向多种 AI 芯片的统一、开源的系统软件栈，包括大型算子库、统一AI编译器、并行训推框架、统一通信库等核心开源项目，构建「模型-系统-芯片」三层贯通的开放技术生态，通过“一次开发跨芯迁移”释放硬件计算潜力，打破不同芯片软件栈之间生态隔离，有效降低开发者的迁移成本。FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推动AI硬件技术大范围落地发展，立足中国、拥抱全球合作。
+FlagOS 社区致力于打造面向多种 AI 芯片的统一、开源的系统软件栈，包括大型算子库、统一AI编译器、并行训推框架、统一通信库等核心开源项目，
+构建「模型-系统-芯片」三层贯通的开放技术生态，通过“一次开发跨芯迁移”释放硬件计算潜力，打破不同芯片软件栈之间生态隔离，有效降低开发者的迁移成本。
+FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推动AI硬件技术大范围落地发展，立足中国、拥抱全球合作。
 
 ---
 
@@ -32,32 +34,41 @@ FlagOS 社区致力于打造面向多种 AI 芯片的统一、开源的系统软
 ## 🚀 扩展生态组件
 
 ### 开发者工具与实用程序
-- **KernelGen**: 为多芯片系统设计的下一代AI辅助内核工程工具
-  → [KernelGen](https://kernelgen.flagos.io) 
 
-- **libtriton_jit**: Triton JIT C++运行时，用于降低Python开销
-  → [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)
+- **[KernelGen](https://kernelgen.flagos.io) **: 为多芯片系统设计的下一代AI辅助内核工程工具
+
+- **[libtriton_jit](https://github.com/flagos-ai/libtriton_jit)**: Triton JIT C++ 运行时，用于降低 Python 开销
 
 ### 框架增强
-- **Megatron-LM-FL**: 大规模Transformer模型训练的GPU优化库
-  → [Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)
+- **[Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)**: 大规模 Transformer 模型训练的 GPU 优化库
 
-- **TransformerEngine-FL**: Transformer模型的FP8混合精度训练
-  → [TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL)
+- **[TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL)**: Transformer 模型的 FP8 混合精度训练
 
 ### 推理与服务
-- **vllm-FL**: 基于FlagOS统一多芯片后端的vLLM插件，用于LLM服务
-  → [vllm-FL](https://github.com/flagos-ai/vllm-FL)
 
-- **vllm-plugin-FL**: 增强型vLLM插件，提供更好的多芯片支持
-  → [vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)
+- **[vllm-FL](https://github.com/flagos-ai/vllm-FL)**: 基于 FlagOS 统一多芯片后端的 vLLM 插件，用于 LLM 服务
+
+- **[vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)**: 增强型 vLLM 插件，提供更好的多芯片支持
+
+## 特定领域算子库
+
+- **[FlagDNN](https://github.com/flagos-ai/FlagDNN)**：面向多种后端芯片的神经网络计算库。
+
+- **[FlagBLAS](https://github.com/flagos-ai/FlagBLAS)**：面向多种后端芯片的计算库，遵从 BLAS 标准接口。
+
+- **[FlagFFT](https://github.com/flagos-ai/FlagFFT)**：针对多种后端芯片开发的一组算法，用于将跨时域/空域与频域完成信号或数据的转换。
+
+- **[FlagSparse](https://github.com/flagos-ai/FlagSparse)**：稀疏矩阵运算算子（如 SpMV, gather, scatter, sparse formats 等），用于多种芯片后端。
+
+- **[FlagTensor](https://github.com/flagos-ai/FlagTensor)**：面向多芯片后端开发的一组高性能张量操作算子。
+
+- **[FlagAudio](https://github.com/flagos-ai/FlagAudio)**：可运行于多种芯片之上的一组高性能的音频数据处理算子。
 
 ### 社区与资源
-- **EasyOfUse**: 为开放计算简化开发 - 即插即用的解决方案和最佳实践
-  → [EasyOfUse](https://github.com/flagos-ai/EasyOfUse)
 
-- **Community**: FlagOS社区治理、贡献指南和交流枢纽
-  → [Community](https://github.com/flagos-ai/community)
+- **[EasyOfUse](https://github.com/flagos-ai/EasyOfUse)**: 为开放计算简化开发 - 即插即用的解决方案和最佳实践
+
+- **[Community](https://github.com/flagos-ai/community)**: FlagOS社区治理、贡献指南和交流枢纽
 
 ---
 
