@@ -50,7 +50,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 - **[vLLM-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)**: Advanced vLLM plugin for enhanced multi-chip support
 
-### Domain Operators
+### Domain Operator Libraries
 
 - **[FlagDNN](https://github.com/flagos-ai/FlagDNN)**: A deep neural network computing library oriented towards multiple chip backends.
 
