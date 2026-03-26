@@ -50,7 +50,7 @@ FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推�
 
 - **[vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)**: 增强型 vLLM 插件，提供更好的多芯片支持
 
-## 特定领域算子库
+### 特定领域算子库
 
 - **[FlagDNN](https://github.com/flagos-ai/FlagDNN)**：面向多种后端芯片的神经网络计算库。
 
