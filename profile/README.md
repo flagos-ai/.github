@@ -34,55 +34,42 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 ### Developer Tools & Utilities
 
-- **KernelGen**: Next-generation AI-assisted kernel engineering for multi-chip systems
-  → [KernelGen](https://kernelgen.flagos.io)
+- **[KernelGen](https://kernelgen.flagos.io)**: Next-generation AI-assisted kernel engineering for multi-chip systems
 
-- **libtriton_jit**: Triton JIT C++ runtime for reduced Python overhead
-  → [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)
+- ** [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)**: Triton JIT C++ runtime for reduced Python overhead.
 
 ### Framework Enhancements
 
-- **Megatron-LM-FL**: GPU-optimized library for training transformer models at scale
-  → [Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)
+- **[Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)**: GPU-optimized library for training transformer models at scale
 
-- **TransformerEngine-FL**: FP8 mixed precision training for transformer models
-  → [TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL)
+- **[TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL)**: FP8 mixed precision training for transformer models
 
 ### Inference & Serving
-- **vllm-FL**: A vLLM plugin built on FlagOS unified multi-chip backend for LLM serving
-  → [vllm-FL](https://github.com/flagos-ai/vllm-FL)
 
-- **vllm-plugin-FL**: Advanced vLLM plugin for enhanced multi-chip support
-  → [vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)
+- **[vLLMFL](https://github.com/flagos-ai/vllm-FL)**: A vLLM plugin built on FlagOS unified multi-chip backend for LLM serving
+
+- **[vLLM-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)**: Advanced vLLM plugin for enhanced multi-chip support
 
 ### Domain Operators
 
-- **FlagDNN**: A deep neural network computing library oriented towards multiple chip backends.
-  → [FlagDNN](https://github.com/flagos-ai/FlagDNN)
+- **[FlagDNN](https://github.com/flagos-ai/FlagDNN)**: A deep neural network computing library oriented towards multiple chip backends.
 
-- **FlagBLAS**: A computing library that follows the BLAS standard interface and is oriented towards multiple chip backends.
-  → [FlagBLAS](https://github.com/flagos-ai/FlagBLAS)
+- **[FlagBLAS](https://github.com/flagos-ai/FlagBLAS)**: A computing library that follows the BLAS standard interface and is oriented towards multiple chip backends.
 
-- **FlagFFT**: Efficient algorithms that convert signals or data between the time/spatial domain and the frequency domain in
+- **[FlagFFT](https://github.com/flagos-ai/FlagFFT)**: Efficient algorithms that convert signals or data between the time/spatial domain and the frequency domain in
 operations targeting multiple chip backends.
-  → [FlagFFT](https://github.com/flagos-ai/FlagFFT)
 
-- **FlagSparse**: A package for sparse operations (SpMV, gather, scatter, sparse formats) targeting multiple chip backends.
-  → [FlagSparse](https://github.com/flagos-ai/FlagSparse)
+- **[FlagSparse](https://github.com/flagos-ai/FlagSparse)**: A package for sparse operations (SpMV, gather, scatter, sparse formats) targeting multiple chip backends.
 
-- **FlagTensor**: A package for high-performance tensor operators targeting multiple chip backends.
-  → [FlagTensor](https://github.com/flagos-ai/FlagTensor)
+- **[FlagTensor](https://github.com/flagos-ai/FlagTensor)**: A package for high-performance tensor operators targeting multiple chip backends.
 
-- **FlagAudio**: A package for high-performance audio data processing targeting multiple chip backends.
-  → [FlagAudio](https://github.com/flagos-ai/FlagAudio)
+- **[FlagAudio](https://github.com/flagos-ai/FlagAudio)**: A package for high-performance audio data processing targeting multiple chip backends.
 
 ### Community & Resources
 
-- **EasyOfUse**: Simplify development for open compute - plug-and-play solutions and best practices
-  → [EasyOfUse](https://github.com/flagos-ai/EasyOfUse)
+- **[EasyOfUse](https://github.com/flagos-ai/EasyOfUse)**: Simplify development for open compute - plug-and-play solutions and best practices.
 
-- **Community**: FlagOS community governance, contribution guides, and communication hub
-  → [Community](https://github.com/flagos-ai/community)
+- **[Community](https://github.com/flagos-ai/community)**: FlagOS community governance, contribution guides, and communication hub.
 
 ---
 
