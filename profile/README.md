@@ -33,6 +33,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 
 ### Developer Tools & Utilities
+
 - **KernelGen**: Next-generation AI-assisted kernel engineering for multi-chip systems
   → [KernelGen](https://kernelgen.flagos.io)
 
@@ -40,6 +41,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
   → [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)
 
 ### Framework Enhancements
+
 - **Megatron-LM-FL**: GPU-optimized library for training transformer models at scale
   → [Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)
 
@@ -53,7 +55,29 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 - **vllm-plugin-FL**: Advanced vLLM plugin for enhanced multi-chip support
   → [vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)
 
+### Domain Operators
+
+- **FlagDNN**: A deep neural network computing library oriented towards multiple chip backends.
+  → [FlagDNN](https://github.com/flagos-ai/FlagDNN)
+
+- **FlagBLAS**: A computing library that follows the BLAS standard interface and is oriented towards multiple chip backends.
+  → [FlagBLAS](https://github.com/flagos-ai/FlagBLAS)
+
+- **FlagFFT**: Efficient algorithms that convert signals or data between the time/spatial domain and the frequency domain in
+operations targeting multiple chip backends.
+  → [FlagFFT](https://github.com/flagos-ai/FlagFFT)
+
+- **FlagSparse**: A package for sparse operations (SpMV, gather, scatter, sparse formats) targeting multiple chip backends.
+  → [FlagSparse](https://github.com/flagos-ai/FlagSparse)
+
+- **FlagTensor**: A package for high-performance tensor operators targeting multiple chip backends.
+  → [FlagTensor](https://github.com/flagos-ai/FlagTensor)
+
+- **FlagAudio**: A package for high-performance audio data processing targeting multiple chip backends.
+  → [FlagAudio](https://github.com/flagos-ai/FlagAudio)
+
 ### Community & Resources
+
 - **EasyOfUse**: Simplify development for open compute - plug-and-play solutions and best practices
   → [EasyOfUse](https://github.com/flagos-ai/EasyOfUse)
 
