@@ -26,6 +26,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 | **FlagRelease** | Large model release platform | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
 | **KernelGen** | AI enabled operator develop tool | [KernelGen](https://github.com/flagos-ai/kernelgen) |
 | **FlagOS-Robo** | End-to-end toolkit for embodied intelligence | [FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) |
+| **FlagSkills** | Skill packages for agents to complete tasks in a specific domain. | [FlagSkills](https://github.com/flagos-ai/skills) |
 
 ---
 
@@ -50,7 +51,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 - **[vLLM-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)**: Advanced vLLM plugin for enhanced multi-chip support
 
-### Domain Operator Libraries
+### Domain-specific Operator Libraries
 
 - **[FlagDNN](https://github.com/flagos-ai/FlagDNN)**: A deep neural network computing library oriented towards multiple chip backends.
 
