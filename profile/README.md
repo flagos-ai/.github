@@ -26,7 +26,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 | **FlagRelease** | Large model release platform | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
 | **KernelGen** | AI enabled operator develop tool | [KernelGen](https://github.com/flagos-ai/kernelgen) |
 | **FlagOS-Robo** | End-to-end toolkit for embodied intelligence | [FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) |
-| **FlagSkills** | Skill packages for agents to complete tasks in a specific domain. | [FlagSkills](https://github.com/flagos-ai/skills) |
+| **FlagOS skills** | Skill packages for agents to complete tasks in a specific domain. | [FlagOS skills](https://github.com/flagos-ai/skills) |
 
 ---
 
