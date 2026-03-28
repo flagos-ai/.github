@@ -28,6 +28,7 @@ FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推�
 | **FlagRelease** | 大模型发布平台 | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
 | **KernelGen** | 大模型辅助算子开发工具 | [KernelGen](https://kernelgen.flagos.io) |
 | **FlagOS-Robo** | 具身智能训推一体化多芯片框架 | [FlagOS-Robo](https://https://github.com/flagos-ai/FlagOS-Robo) |
+| **FlagSkills** | 支持 Agent 在特定领域完成任务的技能包 | [FlagSkills](https://github.com/flagos-ai/skills) |
 
 ---
 
