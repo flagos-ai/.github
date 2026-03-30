@@ -37,7 +37,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 - **[KernelGen](https://kernelgen.flagos.io)**: Next-generation AI-assisted kernel engineering for multi-chip systems
 
-- ** [libtriton_jit](https://github.com/flagos-ai/libtriton_jit)**: Triton JIT C++ runtime for reduced Python overhead.
+- **[libtriton_jit](https://github.com/flagos-ai/libtriton_jit)**: Triton JIT C++ runtime for reduced Python overhead.
 
 ### Framework Enhancements
 
