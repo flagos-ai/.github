@@ -26,16 +26,16 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 | **FlagRelease** | Large model release platform | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
 | **KernelGen** | AI enabled operator develop tool | [KernelGen](https://github.com/flagos-ai/kernelgen) |
 | **FlagOS-Robo** | End-to-end toolkit for embodied intelligence | [FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) |
+| **FlagQuantum** | A high-performance distributed quantum statevector simulator | [FlagQuantum](https://github.com/flagos-ai/FlagQuantum) |
 | **FlagOS skills** | Skill packages for agents to complete tasks in a specific domain. | [FlagOS skills](https://github.com/flagos-ai/skills) |
 
 ---
 
 ## 🚀 Extended Ecosystem Components
 
-
 ### Developer Tools & Utilities
 
-- **[KernelGen](https://kernelgen.flagos.io)**: Next-generation AI-assisted kernel engineering for multi-chip systems
+- **[KernelGenBench](https://github.com/flagos-ai/KernelGenBench)**: A benchmark framework for evaluating LLM and agent-based Triton kernel generation across multiple hardware platforms.
 
 - **[libtriton_jit](https://github.com/flagos-ai/libtriton_jit)**: Triton JIT C++ runtime for reduced Python overhead.
 
@@ -45,11 +45,15 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 - **[TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL)**: FP8 mixed precision training for transformer models
 
+- **[verl-FL](https://github.com/flagos-ai/verl-FL)**: A fork of verl designed to support diverse AI accelerators, built on top of FlagOS.
+
+- **[PyTorch-Plugin-FL](https://github.com/flagos-ai/PyTorch-Plugin-FL))**: A custom PyTorch device plugin based on the `PrivateUse1` extension mechanism, registering FlagGems high-performance Triton operators as the flagos device backend for unified multi-chip support.
+
 ### Inference & Serving
 
-- **[vLLM-FL](https://github.com/flagos-ai/vllm-FL)**: A vLLM plugin built on FlagOS unified multi-chip backend for LLM serving
-
 - **[vLLM-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)**: Advanced vLLM plugin for enhanced multi-chip support
+
+- **[sglang-plugin-FL](https://github.com/flagos-ai/sglang-plugin-FL)**: An out-of-tree (OOT) plugin for SGLang, built on FlagOS's unified multi-chip backend 
 
 ### Domain-specific Operator Libraries
 
@@ -66,6 +70,10 @@ operations targeting multiple chip backends.
 
 - **[FlagAudio](https://github.com/flagos-ai/FlagAudio)**: A package for high-performance audio data processing targeting multiple chip backends.
 
+- **[FlagAttention](https://github.com/flagos-ai/FlagAttention)**: A package for memory-efficient attention operators, initiated as an extension of multi-head attention.
+
+- **[FlagGems-vLLM](https://github.com/flagos-ai/FlagGems-vllm)**: A collection of optimized implementations of common vLLM operators and supports high-performance inference and deployment for a variety of widely used models.
+
 ### Community & Resources
 
 - **[EasyOfUse](https://github.com/flagos-ai/EasyOfUse)**: Simplify development for open compute - plug-and-play solutions and best practices.
@@ -77,15 +85,18 @@ operations targeting multiple chip backends.
 ## 📚 Documentation & Resources
 
 ### Knowledge Base
+
 - **FlagOS Wiki & Documentation**: [DeepWiki Portal](https://flagos-wiki.baai.ac.cn/)
 - **Latest Release v1.5**: [Announcement](https://mp.weixin.qq.com/s/BCryw30j_eMwe0Pr80VtcA)
 
 ### Model Repositories
+
 - **ModelScope**: [FlagRelease Models](https://modelscope.cn/organization/FlagRelease)
 - **Hugging Face**: [FlagRelease Models](https://huggingface.co/FlagRelease/models)
 - **WiseModel**: [FlagRelease Models](https://www.wisemodel.cn/organization/FlagRelease)
 
 ### Community Channels
+
 - **WeChat Official Account**: FlagOpen
 - **WeChat Channels Account**: FlagOpen
 
