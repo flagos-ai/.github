@@ -28,6 +28,7 @@ FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推�
 | **FlagRelease** | 大模型发布平台 | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
 | **KernelGen** | 大模型辅助算子开发工具 | [KernelGen](https://kernelgen.flagos.io) |
 | **FlagOS-Robo** | 具身智能训推一体化多芯片框架 | [FlagOS-Robo](https://https://github.com/flagos-ai/FlagOS-Robo) |
+| **FlagQuantum** | 高性能分布式量子状态向量模拟器 | [FlagQuantum](https://https://github.com/flagos-ai/FlagQuantum) |
 | **FlagOS skills** | 支持 Agent 在特定领域完成任务的技能包 | [FlagOS skills](https://github.com/flagos-ai/skills) |
 
 ---
@@ -36,20 +37,26 @@ FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推�
 
 ### 开发者工具与实用程序
 
-- **[KernelGen](https://kernelgen.flagos.io) **: 为多芯片系统设计的下一代AI辅助内核工程工具
+- **[KernelGenBench](https://github.com/flagos-ai/KernelGenBench) **: 用于跨多芯片平台评估 LLM 和基于 Agent 的 Triton 算子生成的基准测试框架
 
 - **[libtriton_jit](https://github.com/flagos-ai/libtriton_jit)**: Triton JIT C++ 运行时，用于降低 Python 开销
 
 ### 框架增强
+
 - **[Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)**: 大规模 Transformer 模型训练的 GPU 优化库
 
 - **[TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL)**: Transformer 模型的 FP8 混合精度训练
 
+- **[verl-FL](https://github.com/flagos-ai/verl-FL)**: verl 的一个派生版本，在 FlagOS 之上实现对多种 AI 加速器的支持
+
+- **[PyTorch-Plugin-FL](https://github.com/flagos-ai/PyTorch-Plugin-FL)**: 基于 `PrivateUse` 扩展机制实现的一款定制的 PyTorch 设备插件，将 FlagGems 所实现的高性能 Triton 算子注册为 flagos 设备后端，进而支持多款 AI 芯片。
+
+
 ### 推理与服务
 
-- **[vllm-FL](https://github.com/flagos-ai/vllm-FL)**: 基于 FlagOS 统一多芯片后端的 vLLM 插件，用于 LLM 服务
-
 - **[vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)**: 增强型 vLLM 插件，提供更好的多芯片支持
+
+- **[sglang-plugin-FL](https://github.com/flagos-ai/sglang-plugin-FL)**: SGLang 的一款树外（Out-of-tree，OOT）插件，基于 FlagOS 的统一多芯片支持能力构建
 
 ### 特定领域算子库
 
@@ -64,6 +71,10 @@ FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推�
 - **[FlagTensor](https://github.com/flagos-ai/FlagTensor)**：面向多芯片后端开发的一组高性能张量操作算子。
 
 - **[FlagAudio](https://github.com/flagos-ai/FlagAudio)**：可运行于多种芯片之上的一组高性能的音频数据处理算子。
+
+- **[FlagAttention](https://github.com/flagos-ai/FlagAttention)**：包含高效访存注意力算子的一个软件包，起源于对多头注意力机制的扩展。
+- 
+- **[FlagGems-vLLM](https://github.com/flagos-ai/FlagGems-vllm)**：对常用 vLLM 算子的优化实现集合，支持多种常用模型的高性能推理与部署。
 
 ### 社区与资源
 
