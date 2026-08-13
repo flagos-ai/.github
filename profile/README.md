@@ -47,7 +47,7 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 - **[verl-FL](https://github.com/flagos-ai/verl-FL)**: A fork of verl designed to support diverse AI accelerators, built on top of FlagOS.
 
-- **[Torch-FL](https://github.com/flagos-ai/Torch-FL))**: A custom PyTorch device plugin based on the `PrivateUse1` extension mechanism, registering FlagGems high-performance Triton operators as the flagos device backend for unified multi-chip support.
+- **[Torch-FL](https://github.com/flagos-ai/Torch-FL)**: A custom PyTorch device plugin based on the `PrivateUse1` extension mechanism, registering FlagGems high-performance Triton operators as the flagos device backend for unified multi-chip support.
 
 ### Inference & Serving
 
