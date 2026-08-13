@@ -49,7 +49,7 @@ FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推�
 
 - **[verl-FL](https://github.com/flagos-ai/verl-FL)**: verl 的一个派生版本，在 FlagOS 之上实现对多种 AI 加速器的支持
 
-- **[PyTorch-Plugin-FL](https://github.com/flagos-ai/PyTorch-Plugin-FL)**: 基于 `PrivateUse` 扩展机制实现的一款定制的 PyTorch 设备插件，将 FlagGems 所实现的高性能 Triton 算子注册为 flagos 设备后端，进而支持多款 AI 芯片。
+- **[Torch-FL](https://github.com/flagos-ai/Torch-FL)**: 基于 `PrivateUse` 扩展机制实现的一款定制的 PyTorch 设备插件，将 FlagGems 所实现的高性能 Triton 算子注册为 flagos 设备后端，进而支持多款 AI 芯片。
 
 
 ### 推理与服务
