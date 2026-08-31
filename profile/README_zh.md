@@ -20,20 +20,98 @@ FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推�
 
 组件按归属的 SIG 分组。各 SIG 的章程、负责人与例会安排见 [SIG 总览](https://github.com/flagos-ai/community/tree/main/sigs)。
 
-| SIG | 用途 | 代码仓 |
-|-----|------|--------|
-| [**sig-operator**](https://github.com/flagos-ai/community/tree/main/sigs/sig-operator) | 算子库：算子实现、性能优化与多芯片适配，含面向框架的融合算子包 | [FlagGems](https://github.com/flagos-ai/FlagGems)、[FlagGems-vllm](https://github.com/flagos-ai/FlagGems-vllm)、[FlagGems-sglang](https://github.com/flagos-ai/FlagGems-sglang)、[FlagAttention](https://github.com/flagos-ai/FlagAttention)、[FlagFFT](https://github.com/flagos-ai/FlagFFT)、[FlagSparse](https://github.com/flagos-ai/FlagSparse)、[FlagDNN](https://github.com/flagos-ai/FlagDNN)、[FlagBLAS](https://github.com/flagos-ai/FlagBLAS)、[FlagTensor](https://github.com/flagos-ai/FlagTensor)、[FlagAudio](https://github.com/flagos-ai/FlagAudio) |
-| [**sig-compiler**](https://github.com/flagos-ai/community/tree/main/sigs/sig-compiler) | 统一AI编译器：IR 设计、优化 pass 与多芯片代码生成 | [FlagTree](https://github.com/flagos-ai/FlagTree) |
-| [**sig-network**](https://github.com/flagos-ai/community/tree/main/sigs/sig-network) | 统一通信库：集合通信与多芯片、多机通信调优 | [FlagCX](https://github.com/flagos-ai/FlagCX) |
-| [**sig-framework**](https://github.com/flagos-ai/community/tree/main/sigs/sig-framework) | 框架适配层：PyTorch、vLLM、SGLang、TransformerEngine、Megatron-LM、veRL | [Torch-FL](https://github.com/flagos-ai/Torch-FL)、[vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL)、[sglang-plugin-FL](https://github.com/flagos-ai/sglang-plugin-FL)、[TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL)、[Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL)、[verl-FL](https://github.com/flagos-ai/verl-FL) |
-| [**sig-training**](https://github.com/flagos-ai/community/tree/main/sigs/sig-training) | 训推编排：并行策略、训练配方与 Hugging Face 生态集成 | [FlagScale](https://github.com/flagos-ai/FlagScale) |
-| [**sig-kernelgen**](https://github.com/flagos-ai/community/tree/main/sigs/sig-kernelgen) | 大模型辅助算子代码生成及其评测 | [KernelGen](https://github.com/flagos-ai/KernelGen)、[KernelGenBench](https://github.com/flagos-ai/KernelGenBench) |
-| [**sig-chip**](https://github.com/flagos-ai/community/tree/main/sigs/sig-chip) | 数据中心芯片适配：厂商 SDK 集成、芯片使能与多芯片 CI | 无独立代码仓，适配工作落在上述各模块仓库 |
-| [**wg-embodied**](https://github.com/flagos-ai/community/tree/main/wg/wg-embodied) *(孵化中)* | 机器人与具身智能 | [FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) |
-| [**wg-ai4s**](https://github.com/flagos-ai/community/tree/main/wg/wg-ai4s) *(孵化中)* | AI for Science，含量子模拟 | [FlagQuantum](https://github.com/flagos-ai/FlagQuantum) |
-| [**sig-tools**](https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-tools.md) *(筹备中)* | 发布管理工具链 | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
-| [**sig-agent**](https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-agent.md) *(筹备中)* | 支持 Agent 在特定领域完成任务的技能包 | [skills](https://github.com/flagos-ai/skills) |
-| [**sig-benchmark**](https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-benchmark.md) *(筹备中)* | 多芯片性能基准评测 | [FlagPerf](https://github.com/flagos-ai/FlagPerf) |
+<table>
+<thead>
+<tr>
+<th>SIG</th>
+<th>用途</th>
+<th>代码仓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/sigs/sig-operator"><strong>sig-operator</strong></a></td>
+<td>算子库：算子实现、性能优化与多芯片适配，含面向框架的融合算子包</td>
+<td>
+<a href="https://github.com/flagos-ai/FlagGems">FlagGems</a><br />
+<a href="https://github.com/flagos-ai/FlagGems-vllm">FlagGems-vllm</a><br />
+<a href="https://github.com/flagos-ai/FlagGems-sglang">FlagGems-sglang</a><br />
+<a href="https://github.com/flagos-ai/FlagAttention">FlagAttention</a><br />
+<a href="https://github.com/flagos-ai/FlagFFT">FlagFFT</a><br />
+<a href="https://github.com/flagos-ai/FlagSparse">FlagSparse</a><br />
+<a href="https://github.com/flagos-ai/FlagDNN">FlagDNN</a><br />
+<a href="https://github.com/flagos-ai/FlagBLAS">FlagBLAS</a><br />
+<a href="https://github.com/flagos-ai/FlagTensor">FlagTensor</a><br />
+<a href="https://github.com/flagos-ai/FlagAudio">FlagAudio</a>
+</td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/sigs/sig-compiler"><strong>sig-compiler</strong></a></td>
+<td>统一AI编译器：IR 设计、优化 pass 与多芯片代码生成</td>
+<td><a href="https://github.com/flagos-ai/FlagTree">FlagTree</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/sigs/sig-network"><strong>sig-network</strong></a></td>
+<td>统一通信库：集合通信与多芯片、多机通信调优</td>
+<td><a href="https://github.com/flagos-ai/FlagCX">FlagCX</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/sigs/sig-framework"><strong>sig-framework</strong></a></td>
+<td>框架适配层：PyTorch、vLLM、SGLang、TransformerEngine、Megatron-LM、veRL</td>
+<td>
+<a href="https://github.com/flagos-ai/Torch-FL">Torch-FL</a><br />
+<a href="https://github.com/flagos-ai/vllm-plugin-FL">vllm-plugin-FL</a><br />
+<a href="https://github.com/flagos-ai/sglang-plugin-FL">sglang-plugin-FL</a><br />
+<a href="https://github.com/flagos-ai/TransformerEngine-FL">TransformerEngine-FL</a><br />
+<a href="https://github.com/flagos-ai/Megatron-LM-FL">Megatron-LM-FL</a><br />
+<a href="https://github.com/flagos-ai/verl-FL">verl-FL</a>
+</td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/sigs/sig-training"><strong>sig-training</strong></a></td>
+<td>训推编排：并行策略、训练配方与 Hugging Face 生态集成</td>
+<td><a href="https://github.com/flagos-ai/FlagScale">FlagScale</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/sigs/sig-kernelgen"><strong>sig-kernelgen</strong></a></td>
+<td>大模型辅助算子代码生成及其评测</td>
+<td>
+<a href="https://github.com/flagos-ai/KernelGen">KernelGen</a><br />
+<a href="https://github.com/flagos-ai/KernelGenBench">KernelGenBench</a>
+</td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/sigs/sig-chip"><strong>sig-chip</strong></a></td>
+<td>数据中心芯片适配：厂商 SDK 集成、芯片使能与多芯片 CI</td>
+<td>无独立代码仓，适配工作落在上述各模块仓库</td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/wg/wg-embodied"><strong>wg-embodied</strong></a> <em>(孵化中)</em></td>
+<td>机器人与具身智能</td>
+<td><a href="https://github.com/flagos-ai/FlagOS-Robo">FlagOS-Robo</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/tree/main/wg/wg-ai4s"><strong>wg-ai4s</strong></a> <em>(孵化中)</em></td>
+<td>AI for Science，含量子模拟</td>
+<td><a href="https://github.com/flagos-ai/FlagQuantum">FlagQuantum</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-tools.md"><strong>sig-tools</strong></a> <em>(筹备中)</em></td>
+<td>发布管理工具链</td>
+<td><a href="https://github.com/flagos-ai/FlagRelease">FlagRelease</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-agent.md"><strong>sig-agent</strong></a> <em>(筹备中)</em></td>
+<td>支持 Agent 在特定领域完成任务的技能包</td>
+<td><a href="https://github.com/flagos-ai/skills">skills</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-benchmark.md"><strong>sig-benchmark</strong></a> <em>(筹备中)</em></td>
+<td>多芯片性能基准评测</td>
+<td><a href="https://github.com/flagos-ai/FlagPerf">FlagPerf</a></td>
+</tr>
+</tbody>
+</table>
 
 ---
 
