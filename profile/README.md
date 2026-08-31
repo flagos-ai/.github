@@ -16,18 +16,22 @@ Addressing core pain points in utilizing diverse AI chips, FlagOS builds a compr
 
 ## 🎯 Core Components
 
-| Component | Purpose | Repository |
-|-----------|---------|-----------|
-| **FlagGems** | High-performance universal AI operator library | [FlagGems](https://github.com/flagos-ai/FlagGems) |
-| **FlagTree** | Unified AI compiler | [FlagTree](https://github.com/flagos-ai/flagtree) |
-| **FlagScale** | Unified parallel training and inference framework | [FlagScale](https://github.com/flagos-ai/FlagScale) |
-| **FlagCX** | Unified communication library | [FlagCX](https://github.com/flagos-ai/FlagCX) |
-| **FlagPerf** | Multi-chip evaluation tool | [FlagPerf](https://github.com/flagos-ai/FlagPerf) |
-| **FlagRelease** | Large model release platform | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
-| **KernelGen** | AI enabled operator develop tool | [KernelGen](https://github.com/flagos-ai/kernelgen) |
-| **FlagOS-Robo** | End-to-end toolkit for embodied intelligence | [FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) |
-| **FlagQuantum** | A high-performance distributed quantum statevector simulator | [FlagQuantum](https://github.com/flagos-ai/FlagQuantum) |
-| **FlagOS skills** | Skill packages for agents to complete tasks in a specific domain. | [FlagOS skills](https://github.com/flagos-ai/skills) |
+Components are grouped by the SIG that owns them. See the [SIG overview](https://github.com/flagos-ai/community/tree/main/sigs) for charters, owners, and meeting calendars.
+
+| SIG | Purpose | Repository |
+|-----|---------|------------|
+| [**sig-operator**](https://github.com/flagos-ai/community/tree/main/sigs/sig-operator) | Operator libraries: implementation, performance optimization, and multi-chip adaptation | [FlagGems](https://github.com/flagos-ai/FlagGems), [FlagAttention](https://github.com/flagos-ai/FlagAttention), [FlagFFT](https://github.com/flagos-ai/FlagFFT), [FlagSparse](https://github.com/flagos-ai/FlagSparse), [FlagDNN](https://github.com/flagos-ai/FlagDNN), [FlagBLAS](https://github.com/flagos-ai/FlagBLAS), [FlagTensor](https://github.com/flagos-ai/FlagTensor), [FlagAudio](https://github.com/flagos-ai/FlagAudio) |
+| [**sig-compiler**](https://github.com/flagos-ai/community/tree/main/sigs/sig-compiler) | Unified AI compiler: IR design, optimization passes, and multi-chip code generation | [FlagTree](https://github.com/flagos-ai/FlagTree) |
+| [**sig-network**](https://github.com/flagos-ai/community/tree/main/sigs/sig-network) | Unified communication library: collective communication and multi-chip, multi-node tuning | [FlagCX](https://github.com/flagos-ai/FlagCX) |
+| [**sig-framework**](https://github.com/flagos-ai/community/tree/main/sigs/sig-framework) | Framework adapter layer for PyTorch, vLLM, SGLang, TransformerEngine, Megatron-LM, and veRL | [Torch-FL](https://github.com/flagos-ai/Torch-FL), [vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL), [sglang-plugin-FL](https://github.com/flagos-ai/sglang-plugin-FL), [TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL), [Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL), [verl-FL](https://github.com/flagos-ai/verl-FL) |
+| [**sig-training**](https://github.com/flagos-ai/community/tree/main/sigs/sig-training) | Training and inference orchestration: parallelism strategies, recipes, and Hugging Face integration | [FlagScale](https://github.com/flagos-ai/FlagScale) |
+| [**sig-kernelgen**](https://github.com/flagos-ai/community/tree/main/sigs/sig-kernelgen) | AI-assisted kernel code generation and its evaluation | [KernelGen](https://github.com/flagos-ai/KernelGen), [KernelGenBench](https://github.com/flagos-ai/KernelGenBench) |
+| [**sig-chip**](https://github.com/flagos-ai/community/tree/main/sigs/sig-chip) | Datacenter chip adaptation: vendor SDK integration, bring-up, and multi-chip CI | No dedicated repository; adaptation lands in the module repositories above |
+| [**wg-embodied**](https://github.com/flagos-ai/community/tree/main/wg/wg-embodied) *(incubating)* | Robotics and embodied intelligence | [FlagOS-Robo](https://github.com/flagos-ai/FlagOS-Robo) |
+| [**wg-ai4s**](https://github.com/flagos-ai/community/tree/main/wg/wg-ai4s) *(incubating)* | AI for Science, including quantum simulation | [FlagQuantum](https://github.com/flagos-ai/FlagQuantum) |
+| [**sig-tools**](https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-tools.md) *(planned)* | Release management toolchain | [FlagRelease](https://github.com/flagos-ai/FlagRelease) |
+| [**sig-agent**](https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-agent.md) *(planned)* | Skill packages for agents to complete tasks in a specific domain | [skills](https://github.com/flagos-ai/skills) |
+| [**sig-benchmark**](https://github.com/flagos-ai/community/blob/main/sigs/_planned/sig-benchmark.md) *(planned)* | Multi-chip performance benchmarking and evaluation | [FlagPerf](https://github.com/flagos-ai/FlagPerf) |
 
 ---
 
