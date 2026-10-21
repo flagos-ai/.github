@@ -2,6 +2,8 @@
 
 [![GitHub License](https://img.shields.io/github/license/flagos-ai/.github?style=flat-square)](https://github.com/flagos-ai/.github/blob/main/LICENSE) [![Ask DeepWiki](../assets/deepwiki.svg)](https://flagos-wiki.baai.ac.cn/)
 
+[![Slack](https://img.shields.io/badge/Slack-Join%20FlagOS%20Community-4A154B?logo=slack)](https://join.slack.com/t/flagos-ai/shared_invite/zt-4ds384e45-jIGDL1aScD_KY45wlnAoDg)
+
 **语言:** [English](README.md) | [中文](README_zh.md)
 
 ---
@@ -178,6 +180,8 @@ FlagOS 社区构建人工智能软硬件生态，突破单一闭源垄断，推�
 - **WiseModel**: [FlagRelease模型](https://www.wisemodel.cn/organization/FlagRelease)
 
 ### 社区频道
+
+- **Slack**：[加入 FlagOS Community](https://join.slack.com/t/flagos-ai/shared_invite/zt-4ds384e45-jIGDL1aScD_KY45wlnAoDg) — 从 **#community** 开始技术交流，中英文均可，无需 GitHub 组织权限。
 - **微信公众号**: FlagOpen
 - **微信视频号**: FlagOpen
 

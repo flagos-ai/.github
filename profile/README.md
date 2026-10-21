@@ -2,6 +2,8 @@
 
 [![GitHub License](https://img.shields.io/github/license/flagos-ai/.github?style=flat-square)](https://github.com/flagos-ai/.github/blob/main/LICENSE) 
 
+[![Slack](https://img.shields.io/badge/Slack-Join%20FlagOS%20Community-4A154B?logo=slack)](https://join.slack.com/t/flagos-ai/shared_invite/zt-4ds384e45-jIGDL1aScD_KY45wlnAoDg)
+
 **Language:** [English](README.md) | [中文](README_zh.md)
 
 ---
@@ -178,6 +180,8 @@ operations targeting multiple chip backends.
 - **WiseModel**: [FlagRelease Models](https://www.wisemodel.cn/organization/FlagRelease)
 
 ### Community Channels
+
+- **Slack**: [Join FlagOS Community](https://join.slack.com/t/flagos-ai/shared_invite/zt-4ds384e45-jIGDL1aScD_KY45wlnAoDg) — start in **#community** for developer conversations in English or Chinese. No GitHub organization membership required.
 
 - **WeChat Official Account**: FlagOpen
 - **WeChat Channels Account**: FlagOpen
